@@ -10,3 +10,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
+
+/* FullCalendar: restore button styles erased by Tailwind preflight */
+.fc button {
+  all: revert;
+}
+.fc-event {
+  cursor: pointer;
+}
+.fc-event-title {
+  font-size: 0.75rem;
+}

@@ -1,8 +1,9 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { Dumbbell, Calendar, LayoutTemplate } from "lucide-react";
+import { Dumbbell, Calendar, CalendarDays, LayoutTemplate } from "lucide-react";
 
 const navItems = [
   { to: "/workouts", label: "Séances", icon: Calendar },
+  { to: "/calendar", label: "Calendrier", icon: CalendarDays },
   { to: "/exercises", label: "Exercices", icon: Dumbbell },
   { to: "/templates", label: "Programmes", icon: LayoutTemplate },
 ];
